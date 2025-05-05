@@ -232,3 +232,25 @@ Detected existing codebase(s): default
 [info] ✔  Wrote cheetha/tsconfig.dev.json 
 [info] ✔  Wrote cheetha/src/index.ts 
 [info] ✔  Wrote cheetha/.gitignore 
+[info] 
+=== Apphosting Setup
+[debug] [2025-05-05T17:18:32.089Z] Checked if tokens are valid: true, expires at: 1746468240140
+[debug] [2025-05-05T17:18:32.089Z] Checked if tokens are valid: true, expires at: 1746468240140
+[debug] [2025-05-05T17:18:32.090Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/module-2de9e/billingInfo [none]
+[debug] [2025-05-05T17:18:32.783Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/module-2de9e/billingInfo 200
+[debug] [2025-05-05T17:18:32.783Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/module-2de9e/billingInfo {"name":"projects/module-2de9e/billingInfo","projectId":"module-2de9e","billingAccountName":"","billingEnabled":false}
+[info] i  Writing default settings to apphosting.yaml... 
+[info] ✔  Wrote apphosting.yaml 
+[info] ✔  Create a new App Hosting backend with `firebase apphosting:backends:create` 
+[info] 
+=== Hosting Setup
+[debug] [2025-05-05T17:18:32.788Z] Checked if tokens are valid: true, expires at: 1746468240140
+[debug] [2025-05-05T17:18:32.788Z] Checked if tokens are valid: true, expires at: 1746468240140
+[debug] [2025-05-05T17:18:32.788Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/module-2de9e [none]
+[debug] [2025-05-05T17:18:33.424Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/module-2de9e 200
+[debug] [2025-05-05T17:18:33.424Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/module-2de9e {"projectId":"module-2de9e","projectNumber":"1057858638384","displayName":"module","name":"projects/module-2de9e","resources":{"hostingSite":"module-2de9e","realtimeDatabaseInstance":"module-2de9e-default-rtdb"},"state":"ACTIVE","etag":"1_7317f806-326c-44b1-9b8e-ee3219fd6b1b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
