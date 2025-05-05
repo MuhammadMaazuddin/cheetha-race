@@ -1,18 +1,15 @@
 "use client";
 
 import React from 'react'
-import { useRouter } from 'next/navigation';
 import Navbar from './components/navbar';
+import Section_1 from './components/section_1';
 
 function page() {
-  const router = useRouter();
   return (
     <div>
       <Navbar />
-      <div>page</div>
-
-      <button onClick={() => router.push('/app')}>Go to IOT</button>
-      </div>
+      <Section_1 />
+    </div>
   )
 }
 
