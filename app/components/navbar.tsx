@@ -14,7 +14,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between h-20">
         <a className="flex items-center space-x-2">
           <Image src="/logo.png" alt="Logo" width={40} height={40} />
-          <span className="text-2xl font-bold text-yellow-400">Cheetha Products</span>
+          <span className="text-2xl font-bold text-yellow-400">Cheetha Developer</span>
         </a>
         <div className="flex items-center space-x-6 text-lg">
         <Button onClick={() => router.push('/app')}>Get started</Button>
