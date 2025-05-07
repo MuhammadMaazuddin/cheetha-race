@@ -1,23 +1,13 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useAuth } from "@/lib/auth";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import React from "react";
 
 export default function Section1() {
-  const router = useRouter();
-  const { user, loading } = useAuth();
+ 
 
-  const handleGetStarted = () => {
-    if (loading) return;
-    if (user) {
-      router.push("/app");
-    } else {
-      router.push("/login");
-    }
-  };
+ 
 
   return (
     <section className="w-full text-foreground py-30">
@@ -37,7 +27,6 @@ export default function Section1() {
             All-in-one developer toolkit combining the power of AI, Blockchain, and productivity tools — designed for speed, simplicity, and scalability.
           </p>
           <Button
-            onClick={handleGetStarted}
             className="bg-yellow-400 hover:bg-yellow-600 text-yellow-950 text-sm px-6 py-3 "
           >
             Get Started
