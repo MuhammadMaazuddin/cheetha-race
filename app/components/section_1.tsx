@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import TypingEffect from "./anim";
 
 export default function Section1() {
  
@@ -17,10 +16,10 @@ export default function Section1() {
         {/* Left: Intro Text */}
         <div className="text-left">
           <h1 className="text-5xl font-bold mb-6 leading-tight">
-            Welcome to <span className="text-purple-400">Cheetha</span>
+            Welcome to <span className="text-purple-400">Monkey</span>
           </h1>
           <p className="mb-4">
-            <TypingEffect />
+            Product Developer
           </p>
           <p className="text-md italic text-purple-500 mb-4">
             Built for the fastest minds.
